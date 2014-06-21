@@ -1,10 +1,10 @@
 ##########################################################################
-## This file has 2 functions makeCacheMatrix and cacheSolve
-## A typical is to cache the inverse of a matrix, 
-## so it doesn't have to be computed again.
+## This file has 2 functions: makeCacheMatrix and cacheSolve
+## The two would typically be used in conjuction to cache 
+## the inverse of a matrix, so it doesn't have to be computed again.
 
-## It is useful when dealing with large matrices when computing
-## the inverse can be computationally expensive
+## These 2 functions are useful when dealing with large matrices,
+## when computing the inverse can be computationally expensive.
 
 ## The normal use-case would be to call makeCacheMatrix, and then 
 ## call cacheSolve on the object that makeCacheMatrix returned.
