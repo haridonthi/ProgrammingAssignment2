@@ -1,5 +1,6 @@
-## Put comments here that give an overall description of what your
-## functions do
+## This file has 2 functions
+## The first function, makeCacheMatrix is a wrapper object for a matrix and it's cached inverse
+## The second funciton, cacheSolve(x), is used to compute the inverse of a matrix x if necessary, and cache it.
 
 ## Write a short comment describing this function
 
